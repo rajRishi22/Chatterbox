@@ -1,0 +1,15 @@
+:root {
+  --background: #d7d1fe;
+  --primary: rgb(206 191 254);
+  --secondary: #6819c1;
+  
+}
+
+.App{
+  height: 100vh ;
+  width: 100vw ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  overflow: hidden;
+}

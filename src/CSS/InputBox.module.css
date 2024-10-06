@@ -1,0 +1,40 @@
+.InputBox{
+    display: grid;
+    grid-template-columns: auto min-content;
+    gap: 10px;
+    /* width: 100%; */
+}
+
+.InputMessage {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputMessage input{
+    background-color: transparent ;
+    border: 3px solid var(--secondary) ;
+    font-size: 25px ;
+    outline: none ;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.SendBtn{
+    background-color: var(--primary);
+    border: 3px solid var(--secondary) ;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.SendBtn button{
+    background-color: transparent ;
+    border: none ;
+    font-size: 1.5rem ;
+    color: var(--secondary);
+}
+
